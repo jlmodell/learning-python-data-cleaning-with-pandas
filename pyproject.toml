@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "learning-python-data-cleaning-with-pandas"
+version = "0.1.0"
+description = ""
+authors = ["jlmodell <modell.jeff@me.com>"]
+readme = "README.md"
+packages = [{include = "learning_python_data_cleaning_with_pandas"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+openpyxl = "^3.1.2"
+xlrd = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
